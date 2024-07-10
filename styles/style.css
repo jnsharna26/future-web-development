@@ -1,0 +1,105 @@
+.banner{
+  background-image: url("../images/Hero-bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  
+}
+.banner-container{
+  text-align: center;
+}
+ .banner-img{
+
+ }
+ .banner-title{
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+ }
+ .btn-primery{
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+ }
+ .development-title{
+  font-weight: bolder;
+  font-size: 32px;
+  text-align: center;
+ }
+ .develpoment-description{
+font-size: 16px;
+text-align: center;
+ }
+ .explain{
+  /* float: left; */
+  /* display: flex; */
+ 
+ }
+ .explanation-a{
+  position: absolute;
+  /* margin-top: 500px;
+  margin-bottom: 500px; */
+  width: 70%;
+  left: 10%;
+  margin-right: 20px;
+  padding: 48px;
+width: 946px;
+height: 336px;
+ }
+  .img-a{
+   /* margin-top: 350px;
+  margin-bottom: 500px; */
+    float: right;
+  width:30%;
+ }
+ .explanation-title{
+  font-weight: bold;
+  font-size: 24px;
+  color: #141414;
+  
+ }
+ .img-b{
+ margin-top: 350px;
+  margin-bottom: 350px;
+  float:left;
+  width:20%;
+  margin-left: 10%;
+
+  
+ }
+ .explantaion-b{
+ margin-bottom: 350px;
+
+ margin-top: 350px;
+  position: absolute; 
+  width: 70%;
+  left: 30%;
+  padding: 48px;
+  text-align:center;
+  width: 946px;
+height: 336px;
+ }
+ .explanation-c{
+ margin-top: 600px;
+  margin-bottom: 600px;
+  position:absolute ;
+  width: 70%;
+  left: 10%;
+  
+  width: 946px;
+height: 336px;
+
+ }
+ .img-c{
+  margin-top:600px;
+  margin-bottom: 600px;
+  float: right;
+  width: 10%;
+ 
+ }
+ /* .explain{
+  margin-right: 70px;
+  /* display: flex; */
+  /* column-gap: 30px; */
+ } */
