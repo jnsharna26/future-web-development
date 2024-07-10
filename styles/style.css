@@ -17,9 +17,7 @@
 .banner-container{
   text-align: center;
 }
- .banner-img{
 
- }
  .banner-title{
   font-weight: bolder;
   font-size: 48px;
@@ -45,8 +43,8 @@ text-align: center;
   display: flex;
   padding: 48px;
   text-wrap: balance;
-  margin-left: 97px;
-  margin-right: 97px;
+  /* margin-left: 97px;
+  margin-right: 97px; */
  
  }
  
@@ -61,15 +59,17 @@ text-align: center;
   display: flex;
   padding:48px ;
   text-wrap: balance;
-  margin-left: 97px;
-  margin-right: 97px;
+  flex-direction: row-reverse;
+
+  margin-left:20px;
+  margin-right: 20px;
 }
 .cx{
   display: flex;
   text-wrap: balance;
   padding: 48px;
-  margin-left: 97px;
-  margin-right: 97px;
+  /* margin-left: 97px;
+  margin-right: 97px; */
 }
 .ins{
   text-align: center;
@@ -132,7 +132,7 @@ footer input[type="text"]{
   height:57px;
   border-radius: 5px;
   padding: 10px 20px;
-  background-color: white;
+  background-color:white;
   width:120px;
   margin-bottom: 24px;
 }
