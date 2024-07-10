@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   display: flex;
-  
+  height: 450px;
 }
 .banner-container{
   text-align: center;
@@ -32,34 +32,38 @@ font-size: 16px;
 text-align: center;
  }
  .explain{
-  /* float: left; */
-  /* display: flex; */
+ 
+  display: flex;
+  padding: 48px;
+  text-wrap: balance;
+  margin-left: 97px;
+  margin-right: 97px;
  
  }
- .explanation-a{
+ /* .explanation-a{
   position: absolute;
-  /* margin-top: 500px;
-  margin-bottom: 500px; */
+  margin-top: 500px;
+  margin-bottom: 500px;
   width: 70%;
   left: 10%;
   margin-right: 20px;
   padding: 48px;
 width: 946px;
 height: 336px;
- }
-  .img-a{
-   /* margin-top: 350px;
-  margin-bottom: 500px; */
+ } */
+  /* .img-a{
+   margin-top: 350px;
+  margin-bottom: 500px;
     float: right;
   width:30%;
- }
+ } */
  .explanation-title{
   font-weight: bold;
   font-size: 24px;
   color: #141414;
   
  }
- .img-b{
+ /* .img-b{
  margin-top: 350px;
   margin-bottom: 350px;
   float:left;
@@ -67,8 +71,8 @@ height: 336px;
   margin-left: 10%;
 
   
- }
- .explantaion-b{
+ } */
+ /* .explantaion-b{
  margin-bottom: 350px;
 
  margin-top: 350px;
@@ -97,9 +101,27 @@ height: 336px;
   float: right;
   width: 10%;
  
- }
- /* .explain{
-  margin-right: 70px;
-  /* display: flex; */
-  /* column-gap: 30px; */
  } */
+.ex{
+  display: flex;
+  padding:48px ;
+  text-wrap: balance;
+  margin-left: 97px;
+  margin-right: 97px;
+}
+.cx{
+  display: flex;
+  text-wrap: balance;
+  padding: 48px;
+  margin-left: 97px;
+  margin-right: 97px;
+}
+.ins{
+  text-align: center;
+text-wrap: balance;
+
+}
+.video{
+padding:32px;
+border-radius: 16px;
+}
